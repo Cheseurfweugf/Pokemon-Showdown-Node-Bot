@@ -27,7 +27,7 @@ function askUrl () {
 		console.log('This may take some time, depending on Showdown\'s speed.');
 		var received = false;
 		var requestOptions = {
-			hostname: 'play.pokemonshowdown.com',
+			hostname: 'http://leaf-megaforever.rhcloud.com-80.psim.us/',
 			port: 80,
 			path: '/crossdomain.php?host=' + serverUrl + '&path=',
 			method: 'GET'
